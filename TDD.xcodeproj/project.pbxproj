@@ -16,6 +16,8 @@
 		6E39915F28F5F4BE00EA3ECD /* TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39915E28F5F4BE00EA3ECD /* TDDTests.swift */; };
 		6E39916928F5F4BF00EA3ECD /* TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39916828F5F4BF00EA3ECD /* TDDUITests.swift */; };
 		6E39916B28F5F4BF00EA3ECD /* TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39916A28F5F4BF00EA3ECD /* TDDUITestsLaunchTests.swift */; };
+		6E39917828F5F52E00EA3ECD /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39917728F5F52E00EA3ECD /* PersonTests.swift */; };
+		6E39917A28F5F6B800EA3ECD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E39917928F5F6B800EA3ECD /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6E39916428F5F4BF00EA3ECD /* TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E39916828F5F4BF00EA3ECD /* TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDUITests.swift; sourceTree = "<group>"; };
 		6E39916A28F5F4BF00EA3ECD /* TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E39917728F5F52E00EA3ECD /* PersonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		6E39917928F5F6B800EA3ECD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 				6E39914728F5F4BA00EA3ECD /* AppDelegate.swift */,
 				6E39914928F5F4BA00EA3ECD /* SceneDelegate.swift */,
 				6E39914B28F5F4BA00EA3ECD /* ViewController.swift */,
+				6E39917928F5F6B800EA3ECD /* Person.swift */,
 				6E39914D28F5F4BA00EA3ECD /* Main.storyboard */,
 				6E39915028F5F4BE00EA3ECD /* Assets.xcassets */,
 				6E39915228F5F4BE00EA3ECD /* LaunchScreen.storyboard */,
@@ -114,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				6E39915E28F5F4BE00EA3ECD /* TDDTests.swift */,
+				6E39917728F5F52E00EA3ECD /* PersonTests.swift */,
 			);
 			path = TDDTests;
 			sourceTree = "<group>";
@@ -260,6 +266,7 @@
 			files = (
 				6E39914C28F5F4BA00EA3ECD /* ViewController.swift in Sources */,
 				6E39914828F5F4BA00EA3ECD /* AppDelegate.swift in Sources */,
+				6E39917A28F5F6B800EA3ECD /* Person.swift in Sources */,
 				6E39914A28F5F4BA00EA3ECD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E39917828F5F52E00EA3ECD /* PersonTests.swift in Sources */,
 				6E39915F28F5F4BE00EA3ECD /* TDDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
