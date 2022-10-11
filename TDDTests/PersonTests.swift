@@ -24,4 +24,10 @@ class PersonTests: XCTestCase {
         
         XCTAssertNotNil(person)
     }
+    
+    func testInitPersonWithFullNameAndPhone() {
+        let person = Person(name: "Anna", phone: "89999999999", surname: "Petrovna")
+        
+        XCTAssertNotNil(person)
+    }
 }
